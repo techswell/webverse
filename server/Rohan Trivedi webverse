@@ -1,0 +1,199 @@
+Main website url : http://127.0.0.1:5501/html
+
+HTML code :
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="web.css">
+	<title>Web Verse</title>
+
+</head>
+<body>
+
+	<video autoplay muted loop id="video3">
+		<source src="video3.mp4" type="video/mp4">
+	  </video>
+	<h1>Web Verse</h1>
+	<div class="team">
+		<div class="member">
+			<div class="name">Rohan Trivedi</div>
+			<div class="role">Front-end Developer</div>
+			<p>Rohan is responsible for creating engaging user interfaces and ensuring a seamless user experience on our web applications.</p>
+		</div>
+		<div class="member">
+			<div class="name">Darshil Amrutiya</div>
+			<div class="role">Web Developer</div>
+			<p>Darshil is responsible for building the server-side logic of our web applications and ensuring their smooth operation.</p>
+        </div>
+	</div>
+    
+
+	<!DOCTYPE html>
+	<html>
+	  <head>
+		<title>Hostel Management System</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	  </head>
+	  <body>
+		<div class="container">
+		  <div class="form-container">
+			<h1>Hostel Management System</h1>
+			<div class="options">
+			  <div class="option">
+				<h3>Student Login</h3>
+				<a href="1.html"><img src="download.jpeg" alt="Student Login"></a>
+			  </div>
+			  <div class="option">
+				<h3>Warden Login</h3>
+				<a href="2.html"><img src="warden.png" alt="Warden Login"></a>
+			  </div>
+			  <div class="option">
+				<h3>Faculty Login</h3>
+				<a href="3.html"><img src="faculty.jpeg" alt="Faculty Login"></a>
+			  </div>
+			</div>
+		  </div>
+		</div>>
+	  </body>
+	</html>
+
+
+css script:
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+h1 {
+    font-size: 48px;
+    color: #333333;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(154, 163, 114);
+    
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.member {
+    border: 2px solid #333333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+    width: 300px;
+    background-color: bisque;
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: coral;
+}
+.role {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 20px;
+
+}
+
+.photo{
+    display: flex;
+    justify-self: center;
+    padding-top: 2cm;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-left: 440px;
+
+}
+.photo1{
+
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 300px;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #5a48df;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #1b15c9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 600px;
+    margin-bottom: auto;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .option {
+    background-color: #3ce013;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .option h3 {
+    margin-bottom: 10px;
+    image-rendering: auto;
+  }
+  
+  .option img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .option img:hover {
+    transform: scale(1.1);
+  }
+
+
+
+
