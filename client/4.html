@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Course and Student Information</title>
+  </head>
+  <body>
+    <h1>Course and Student Information</h1>
+    <table id="courses-table">
+      <thead>
+        <tr>
+          <th>Course Code</th>
+          <th>Course Name</th>
+          <th>Faculty Name</th>
+          <th>Students Enrolled</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+    <script>
+      // Make an HTTP GET request to the API endpoint
+      fetch('/api/courses')
+        .then(response => response.json())
+        .then(courses => {
+          // Populate the table with the course and student information
+          const tableBody = document.querySelector('#courses-table tbody');
+          courses.forEach(course => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+              <td>${course.code}</td>
+              <td>${course.name}</td>
+              <td>${course.faculty}</td>
+              <td>${course.students.join(', ')}</td>
+            `;
+            tableBody.appendChild(row);
+          });
+        })
+        .catch(error => {
+          console.log('Error retrieving courses from API', error);
+        });
+    </script>
+  </body>
+</html>

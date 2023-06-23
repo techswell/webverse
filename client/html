@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="web.css">
+	<title>Web Verse</title>
+
+</head>
+<body>
+
+	<video autoplay muted loop id="video3">
+		<source src="video3.mp4" type="video/mp4">
+	  </video>
+	<h1>Web Verse</h1>
+	<div class="team">
+		<div class="member">
+			<div class="name">Rohan Trivedi</div>
+			<div class="role">Front-end Developer</div>
+			<p>Rohan is responsible for creating engaging user interfaces and ensuring a seamless user experience on our web applications.</p>
+		</div>
+		<div class="member">
+			<div class="name">Darshil Amrutiya</div>
+			<div class="role">Web Developer</div>
+			<p>Darshil is responsible for building the server-side logic of our web applications and ensuring their smooth operation.</p>
+        </div>
+	</div>
+    
+
+	<!DOCTYPE html>
+	<html>
+	  <head>
+		<title>Hostel Management System</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	  </head>
+	  <body>
+		<div class="container">
+		  <div class="form-container">
+			<h1>Hostel Management System</h1>
+			<div class="options">
+			  <div class="option">
+				<h3>Student Login</h3>
+				<a href="1.html"><img src="download.jpeg" alt="Student Login"></a>
+			  </div>
+			  <div class="option">
+				<h3>Warden Login</h3>
+				<a href="2.html"><img src="warden.png" alt="Warden Login"></a>
+			  </div>
+			  <div class="option">
+				<h3>Faculty Login</h3>
+				<a href="3.html"><img src="faculty.jpeg" alt="Faculty Login"></a>
+			  </div>
+			</div>
+		  </div>
+		</div>>
+	  </body>
+	</html>
+	
+
+
+
+
